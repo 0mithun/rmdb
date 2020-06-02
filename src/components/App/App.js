@@ -7,7 +7,7 @@ import Movie from '../Movie/Movie';
 
 const App = ()=>{
     return (
-        <BrowserRouter>
+        <BrowserRouter basename="rmdb">
             <React.Fragment>
                 <Header />
                 <Switch>
